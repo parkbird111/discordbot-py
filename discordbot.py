@@ -26,7 +26,7 @@ def get_maple_text(url):
     return hrefs
     
 
-TOKEN = 'MTEzMzk3MTM2MTIxMjE0MTY0OQ.G8shD3.q-NY9yTFCNClU0LU_bbHS_YS-6VaqqA6_SL_7k'
+TOKEN = os.environ.get('BOT_TOKEN')
 PREFIX = '!'
 CHANNEL_ID = 1133932594354987052
 
